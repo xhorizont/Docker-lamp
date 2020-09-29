@@ -1,9 +1,6 @@
 # Docker-lamp
 This Docker container implements a last generation LAMP stack with a set of popular PHP modules. Includes support for Composer, Bower and npm package managers and a Postfix service to allow sending emails through PHP mail() function.
 
-xhorizont/lamp
-==========
-
 ![docker_logo](https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/)
