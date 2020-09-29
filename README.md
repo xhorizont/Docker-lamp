@@ -4,8 +4,8 @@ This Docker container implements a last generation LAMP stack with a set of popu
 ![docker_logo](https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/xhorizont/docker-lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/)
-[![Docker Build Status](https://img.shields.io/docker/build/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/builds/)
-[![](https://images.microbadger.com/badges/image/fauria/lamp.svg)](https://microbadger.com/images/fauria/lamp "fauria/lamp")
+[![Docker Build Status](https://img.shields.io/docker/build/xhorizont/docker-lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/builds/)
+[![](https://images.microbadger.com/badges/image/xhorizont/docker-lamp.svg)](https://microbadger.com/images/fauria/lamp "fauria/lamp")
 
 This Docker container implements a last generation LAMP stack with a set of popular PHP modules. Includes support for [Composer](https://getcomposer.org/), [Bower](http://bower.io/) and [npm](https://www.npmjs.com/) package managers and a Postfix service to allow sending emails through PHP [mail()](http://php.net/manual/en/function.mail.php) function.
 
@@ -61,7 +61,7 @@ Includes the following components:
 	* ftp
 	* curl
 
-Installation from [Docker registry hub](https://registry.hub.docker.com/r/fauria/lamp/).
+Installation from [Docker registry hub](https://registry.hub.docker.com/r/xhorizont/docker-lamp/).
 ----
 
 You can download the image using the following command:
