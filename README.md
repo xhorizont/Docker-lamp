@@ -67,7 +67,7 @@ Installation from [Docker registry hub](https://registry.hub.docker.com/r/xhoriz
 You can download the image using the following command:
 
 ```bash
-docker pull fauria/lamp
+docker pull xhorizont/docker-lamp
 ```
 
 Environment variables
