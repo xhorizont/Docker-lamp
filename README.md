@@ -3,7 +3,7 @@ This Docker container implements a last generation LAMP stack with a set of popu
 
 ![docker_logo](https://raw.githubusercontent.com/fauria/docker-lamp/master/docker_139x115.png)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/xhorizont/docker-lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/)
 [![Docker Build Status](https://img.shields.io/docker/build/fauria/lamp.svg?style=plastic)](https://hub.docker.com/r/fauria/lamp/builds/)
 [![](https://images.microbadger.com/badges/image/fauria/lamp.svg)](https://microbadger.com/images/fauria/lamp "fauria/lamp")
 
