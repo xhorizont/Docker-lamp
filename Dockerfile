@@ -8,6 +8,8 @@ LABEL Description="Cutting-edge LAMP stack, based on Ubuntu 20.04 LTS. Includes 
 RUN apt-get update
 RUN apt-get upgrade -y
 
+RUN add-apt-repository ppa:ondrej/php
+
 COPY debconf.selections /tmp/
 RUN debconf-set-selections /tmp/debconf.selections
 
