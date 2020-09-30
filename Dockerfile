@@ -13,40 +13,40 @@ RUN debconf-set-selections /tmp/debconf.selections
 
 RUN apt-get install -y zip unzip
 RUN apt-get install -y \
-	php7.0 \
-	php7.0-bz2 \
-	php7.0-cgi \
-	php7.0-cli \
-	php7.0-common \
-	php7.0-curl \
-	php7.0-dev \
-	php7.0-enchant \
-	php7.0-fpm \
-	php7.0-gd \
-	php7.0-gmp \
-	php7.0-imap \
-	php7.0-interbase \
-	php7.0-intl \
-	php7.0-json \
-	php7.0-ldap \
-	php7.0-mbstring \
-	php7.0-mcrypt \
-	php7.0-mysql \
-	php7.0-odbc \
-	php7.0-opcache \
-	php7.0-pgsql \
-	php7.0-phpdbg \
-	php7.0-pspell \
-	php7.0-readline \
-	php7.0-recode \
-	php7.0-snmp \
-	php7.0-sqlite3 \
-	php7.0-sybase \
-	php7.0-tidy \
-	php7.0-xmlrpc \
-	php7.0-xsl \
-	php7.0-zip
-RUN apt-get install apache2 libapache2-mod-php7.0 -y
+	php7.4 \
+	php7.4-bz2 \
+	php7.4-cgi \
+	php7.4-cli \
+	php7.4-common \
+	php7.4-curl \
+	php7.4-dev \
+	php7.4-enchant \
+	php7.4-fpm \
+	php7.4-gd \
+	php7.4-gmp \
+	php7.4-imap \
+	php7.4-interbase \
+	php7.4-intl \
+	php7.4-json \
+	php7.4-ldap \
+	php7.4-mbstring \
+	php7.4-mcrypt \
+	php7.4-mysql \
+	php7.4-odbc \
+	php7.4-opcache \
+	php7.4-pgsql \
+	php7.4-phpdbg \
+	php7.4-pspell \
+	php7.4-readline \
+	php7.4-recode \
+	php7.4-snmp \
+	php7.4-sqlite3 \
+	php7.4-sybase \
+	php7.4-tidy \
+	php7.4-xmlrpc \
+	php7.4-xsl \
+	php7.4-zip
+RUN apt-get install apache2 libapache2-mod-php7.4 -y
 RUN apt-get install mariadb-common mariadb-server mariadb-client -y
 RUN apt-get install postfix -y
 RUN apt-get install git nodejs npm composer nano tree vim curl ftp -y
